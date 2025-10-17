@@ -1,0 +1,141 @@
+/* Color Palette
+#1: #FAF8F1: Light Cream
+#2: #FAEAB1: Pale Yellow
+#3: #34656D: Teal
+#4: #334443: Dark Slate
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* Global styles 
+------------------------------------*/
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FAF8F1;
+    color: #334443;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+h2, h3, h4 {
+    font-family: "Bebas Neue", sans-serif;
+    color: #34656D;
+    margin-bottom: 0.5em;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    color: #FAEAB1;
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+p, li {
+    font-weight: 400;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    background-color: #34656D;
+    color: #FAF8F1;
+    text-align: center;
+    padding: 2em 1em;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 100%;
+    margin-right: 30px;
+}
+
+footer {
+    background-color: #334443;
+    color: #FAF8F1;
+    text-align: center;
+    padding: 2em 1em;
+}
+
+footer a {
+    color: #FAF8F1;
+    margin: 0 0.5em;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer h2 {
+     color: #FAEAB1;
+}
+
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Work Experience & Education
+------------------------------------*/
+section {
+    background-color: #FAEAB1;
+    padding: 2em 1em;
+    margin: 1em auto;
+    max-width: 1000px;
+    border-radius: 10px;
+}
+
+section h2 {
+    border-bottom: 2px solid #34656D;
+    padding-bottom: 0.5em;
+}
+
+ul {
+    padding-left: 1.5em;
+}
+
+section h3, section h4 {
+    margin-top: 1em;
+}
+
+section p {
+    margin-bottom: 1em;
+}
