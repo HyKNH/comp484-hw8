@@ -8,10 +8,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eff11c9d68.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <!-- Navigation Menu -->
+    <nav class="navbar">
+        <div class="content-wrap">
+            <a href="#intro">Home</a>
+            <a href="#work">Work Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+            <a href="documents/Resume.pdf" download>Download PDF</a>
+        </div>
+    </nav>
+
     <!-- // Intro -->
-   <header>
+   <header id="intro">
         <div class="content-wrap">
             <div class="column-narrow">
                 <img src="images/intro.jpg" alt="Francis Nguyen Profile Picture" class="profile-img">
@@ -30,7 +44,7 @@
     
     <main> 
         <!-- // Work Experience -->
-        <section>
+        <section id="work">
             <div class="content-wrap">
                 <h2>Work Experience</h2>
                 <div class="column-narrow">
@@ -50,7 +64,7 @@
         </section>
 
         <!-- // Projects -->
-        <section>
+        <section id="projects">
             <div class="content-wrap">
                 <h2>Projects</h2>
 
@@ -98,7 +112,7 @@
         </section>
 
         <!-- // Education -->
-        <section>
+        <section id="education">
             <div class="content-wrap">
                 <h2>Education</h2>
 
@@ -116,15 +130,15 @@
     </main>
     
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
         <div class="content-wrap">
             <h2>Let's Keep in Touch!</h2>
             <div class="contact-info">
-                <a href="mailto:francisnguyen70@gmail.com">francisnguyen70@gmail.com</a>
-                <a href="https://github.com/HyKNH" target="_blank">Github</a>
-                <a href="https://www.linkedin.com/in/hyknh" target="_blank">LinkedIn</a>
+                <a href="mailto:francisnguyen70@gmail.com"><i class="fa-solid fa-envelope"></i> francisnguyen70@gmail.com</a>
+                <a href="https://github.com/HyKNH" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
+                <a href="https://www.linkedin.com/in/hyknh" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
             </div>
-            <p>Copyright 2025 by Francis Nguyen</p>
+            <p><i class="fa-solid fa-copyright"></i> Copyright 2025 by Francis Nguyen</p>
         </div>
     </footer>
 </body>
